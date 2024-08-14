@@ -1,0 +1,21 @@
+.circleBackground {
+  fill: none;
+  stroke: #e0e0e0;
+}
+
+.progress {
+  fill: none;
+  stroke: url(#grad1);
+  transition: stroke-dashoffset 1s ease-out;
+}
+
+text {
+  color: aliceblue;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 500px) {
+  text {
+    font-size: 1rem;
+  }
+}

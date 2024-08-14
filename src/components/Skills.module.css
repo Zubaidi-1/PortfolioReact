@@ -1,0 +1,55 @@
+.containers {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  gap: 8rem;
+}
+
+.flexCont {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+}
+
+.des {
+  text-align: left;
+  width: 70%;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  color: #09203f;
+}
+@media screen and (max-width: 1400px) {
+  .containers {
+    gap: 6rem;
+  }
+  .des {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .containers {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .des {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .containers {
+    gap: 1rem;
+  }
+  .des {
+    font-size: 1rem;
+  }
+
+  .flexCont {
+    gap: 1rem;
+  }
+}

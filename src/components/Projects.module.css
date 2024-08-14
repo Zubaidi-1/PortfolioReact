@@ -1,0 +1,23 @@
+.projectContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 700px);
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    #0a1a35,
+    #0d274a,
+    #103359,
+    #184270,
+    #09203f,
+    #010a18
+  );
+
+  align-items: center;
+  color: aliceblue;
+  justify-content: center;
+}
+@media screen and (max-width: 970px) {
+  .projectContainer {
+    grid-template-columns: repeat(1, 700px);
+  }
+}

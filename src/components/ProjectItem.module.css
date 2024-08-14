@@ -1,0 +1,98 @@
+.projectItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  margin-left: 10%;
+  justify-items: center;
+  align-content: center;
+}
+
+.button {
+  display: flex;
+  font-size: 1.2rem;
+  width: 6rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgCont {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  color: #09203f;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  margin-left: -4rem;
+  font-size: 0.9rem;
+}
+
+.imgCont:hover .overlay {
+  opacity: 1;
+  margin-left: -4rem;
+}
+
+img {
+  width: 13rem;
+  margin-left: 25%;
+  border-radius: 15%;
+}
+@media screen and (max-width: 1300px) {
+  img {
+    width: 10rem;
+    margin-left: 14rem;
+  }
+
+  .overlay {
+    font-size: 0.7rem;
+    margin-left: -3rem;
+    bottom: -10px;
+  }
+  .imgCont:hover .overlay {
+    font-size: 0.7rem;
+    bottom: -10px;
+    margin-left: -3rem;
+  }
+  .button {
+    display: flex;
+    font-size: 0.8rem;
+    width: 4rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .center {
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  img {
+    width: 8rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  img {
+    width: 8rem;
+    height: 8rem;
+    margin-top: 2rem;
+  }
+  .center {
+    margin-left: -10%;
+    margin-top: 0.7rem;
+  }
+
+  .button {
+    font-size: 0.7rem;
+    width: 3rem;
+  }
+}
