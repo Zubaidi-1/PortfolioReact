@@ -6,7 +6,7 @@ const Hero = forwardRef(function ({ scrollTo }, ref) {
   const text = " Hey, I'm Abdalla Zubaidi!";
   const textArr = text.split("");
   const aboutArr =
-    "I'm a computer science student, passionate about the web!".split("");
+    "I'm an electerical engineer, passionate about the web!".split("");
   return (
     <div ref={ref} className={classes.container}>
       <div className={classes.textContainer}>

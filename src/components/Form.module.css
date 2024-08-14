@@ -112,4 +112,7 @@ textarea {
 
     font-size: 1rem;
   }
+  textarea {
+    width: 18rem;
+  }
 }
