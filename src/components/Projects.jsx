@@ -1,7 +1,7 @@
 import ProjectItem from "./ProjectItem";
 import PortfolioImg from "./images/Portfolio.png";
 import commingSoon from "./images/commingsoon.jpg";
-
+import bookImg from "./images/book.png";
 import classes from "./Projects.module.css";
 import { forwardRef } from "react";
 const Projects = forwardRef(function (props, ref) {
@@ -13,7 +13,7 @@ const Projects = forwardRef(function (props, ref) {
         codeLink={"https://github.com/Zubaidi-1/PortfolioReact.git"}
         liveLink={"https://zubaidi-1.github.io/PortfolioReact/"}
       />
-      <ProjectItem description={"Coming soon"} image={commingSoon} />
+      <ProjectItem description={"Library"} image={bookImg} />
       <ProjectItem description={"Coming soon"} image={commingSoon} />
       <ProjectItem description={"Coming soon"} image={commingSoon} />
     </div>
