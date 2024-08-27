@@ -13,7 +13,12 @@ const Projects = forwardRef(function (props, ref) {
         codeLink={"https://github.com/Zubaidi-1/PortfolioReact.git"}
         liveLink={"https://zubaidi-1.github.io/PortfolioReact/"}
       />
-      <ProjectItem description={"Library"} image={bookImg} />
+      <ProjectItem
+        description={"Library"}
+        image={bookImg}
+        codeLink={"https://github.com/Zubaidi-1/library.git"}
+        liveLink={"https://zubaidi-1.github.io/library/"}
+      />
       <ProjectItem description={"Coming soon"} image={commingSoon} />
       <ProjectItem description={"Coming soon"} image={commingSoon} />
     </div>
