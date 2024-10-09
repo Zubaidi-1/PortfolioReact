@@ -1,6 +1,8 @@
 import ProjectItem from "./ProjectItem";
 import PortfolioImg from "./images/Portfolio.png";
 import commingSoon from "./images/commingsoon.jpg";
+import football from "./images/football.jpg";
+import calc from "./images/calc.jpg";
 import bookImg from "./images/book.png";
 import classes from "./Projects.module.css";
 import { forwardRef } from "react";
@@ -19,8 +21,18 @@ const Projects = forwardRef(function (props, ref) {
         codeLink={"https://github.com/Zubaidi-1/library.git"}
         liveLink={"https://zubaidi-1.github.io/library/"}
       />
-      <ProjectItem description={"Coming soon"} image={commingSoon} />
-      <ProjectItem description={"Coming soon"} image={commingSoon} />
+      <ProjectItem
+        description={"Football"}
+        image={football}
+        codeLink={"https://github.com/Zubaidi-1/football.git"}
+        liveLink={"https://zubaidi-1.github.io/football/"}
+      />
+      <ProjectItem
+        description={"Price Match"}
+        codeLink={"https://github.com/Zubaidi-1/PriceMatch.git"}
+        liveLink={"https://zubaidi-1.github.io/PriceMatch/"}
+        image={calc}
+      />
     </div>
   );
 });
